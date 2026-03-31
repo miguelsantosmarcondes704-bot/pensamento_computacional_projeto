@@ -75,7 +75,7 @@ while True:
            
            escolha_menu == input ("\nSair:")
 
-    if escolha_menu == '4':
+    elif escolha_menu == '4':
            print("Pão Francês")
            print("Pão de Banha")
            print("Pão italiano")
