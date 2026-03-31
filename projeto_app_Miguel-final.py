@@ -7,10 +7,9 @@ while True:
     print("1.Encomendar pedido")
     print("2.Peça seu delivery")
     print("3.Cardapio")
-    print("4.Cancelar encomenda")
-    print("5.Contato")
-    print("6.Localização")
-    print("7.Redes sociais")
+    print("4.Contato")
+    print("5.Localização")
+    print("6.Redes sociais")
     print("0.Sair")
 
     escolha_menu = input("\n Escolha uma opção: \n")
@@ -53,6 +52,7 @@ while True:
            print ("Pizza Portuguesa")
            print ("Pizza quatro queijos")
            print ("Pizza de calabresa")
+           escolha_menu == input
 
     if escolha_menu == '3':
            print("Refrigerantes")
@@ -63,11 +63,13 @@ while True:
            print("Pão Francês")
            print("Pão de Banha")
            print("Pão italiano")
-        # continue
-
-    
+                
+       
+ 
    
-    break 
+    break
 
 else:
         print("\nOpção inválida, tente novamente.\n")
+
+
