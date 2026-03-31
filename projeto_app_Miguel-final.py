@@ -32,7 +32,7 @@ while True:
 
         # while true:
             
-    elif escolha_menu == '3':
+    if escolha_menu == '3':
         
         print("\n1.Bolos\n")
         print("2.Pizzas\n")
@@ -45,30 +45,25 @@ while True:
         print ("Bolo de cenoura")
         print ("Bolo de limão")
 
-        if escolha_menu == '2':
+    elif escolha_menu == '2':
            print ("Pizza Portuguesa")
            print ("Pizza quatro queijos")
            print ("Pizza de calabresa")
 
-        if escolha_menu == '3':
+    if escolha_menu == '3':
            print("Refrigerantes")
            print("Cervejas")
            print("Sucos Naturais")
 
-        if escolha_menu == '4':
+    elif escolha_menu == '4':
            print("Pão Francês")
            print("Pão de Banha")
            print("Pão italiano")
         # continue
 
-    elif escolha_menu =='9':
     
-    elif escolha_menu =='4':
-        print ("Tester Cancelar Encomenda")
-
-    elif escolha_menu == '9':
-        print("\nSaindo... Até logo!\n")
-        break # Encerra o laço corretamente
+   
+    break 
 
 else:
         print("\nOpção inválida, tente novamente.\n")
