@@ -20,6 +20,11 @@ while True:
         telefone_cliente = input("\nDigite o seu telefone:\n ")
         print("\nPedido a caminho,Obrigado pela preferência!\n")
 
+        escolha_menu == input ("Sair:")
+
+        if escolha_menu == '0':
+             break
+
     elif escolha_menu == '2':
         print("\nDigite o seu endereço...\n")
         bairro = input("\nBairro:\n")
@@ -27,47 +32,59 @@ while True:
         numero = input("\nNúmero da residência\n")
         print("\nPedido a caminho,Obrigado pela preferência!\n")
 
+        escolha_menu == input ("Sair:")
+
         
 
-        # while true:
+    while True:
             
-    if escolha_menu == '3':
+     if escolha_menu == '3':
 
-        print("\n1.Bolos\n")
+        print("1.Bolos\n")
         print("2.Pizzas\n")
         print("3.Bebidas\n")
         print("4.Pães\n")
 
         escolha_menu == input("\nEscolha uma opção:")
         
+        if escolha_menu == '0':
+          print("Saindo até logo:3\n")
         
+        break
 
-    elif escolha_menu == '1': 
-        print ("Bolo de laranja")
+        if escolha_menu == '1': 
+        
+            print ("Bolo de laranja")
         print ("Bolo de chocolate")
         print ("Bolo de cenoura")
         print ("Bolo de limão")
+
+        escolha_menu == input ("\nSair:")
 
     if escolha_menu == '2':
            print ("Pizza Portuguesa")
            print ("Pizza quatro queijos")
            print ("Pizza de calabresa")
-           escolha_menu == input
+           
+           escolha_menu == input ("\nSair:")
 
     if escolha_menu == '3':
            print("Refrigerantes")
            print("Cervejas")
            print("Sucos Naturais")
+           
+           escolha_menu == input ("\nSair:")
 
     if escolha_menu == '4':
            print("Pão Francês")
            print("Pão de Banha")
            print("Pão italiano")
+           
+           escolha_menu == input ("\nSair:")
                 
        
  
-   
-    break
+  
 
 else:
         print("\nOpção inválida, tente novamente.\n")
