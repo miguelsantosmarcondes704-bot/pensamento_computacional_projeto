@@ -33,19 +33,23 @@ while True:
         # while true:
             
     if escolha_menu == '3':
-        
+
         print("\n1.Bolos\n")
         print("2.Pizzas\n")
         print("3.Bebidas\n")
         print("4.Pães\n")
 
-        if escolha_menu == '1': 
-         print ("Bolo de laranja")
+        escolha_menu == input("\nEscolha uma opção:")
+        
+        
+
+    elif escolha_menu == '1': 
+        print ("Bolo de laranja")
         print ("Bolo de chocolate")
         print ("Bolo de cenoura")
         print ("Bolo de limão")
 
-    elif escolha_menu == '2':
+    if escolha_menu == '2':
            print ("Pizza Portuguesa")
            print ("Pizza quatro queijos")
            print ("Pizza de calabresa")
@@ -55,7 +59,7 @@ while True:
            print("Cervejas")
            print("Sucos Naturais")
 
-    elif escolha_menu == '4':
+    if escolha_menu == '4':
            print("Pão Francês")
            print("Pão de Banha")
            print("Pão italiano")
