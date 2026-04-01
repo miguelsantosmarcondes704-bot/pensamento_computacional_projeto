@@ -34,6 +34,8 @@ while True:
 
         escolha_menu == input ("Sair:")
 
+        break
+
         
 
     while True:
@@ -68,7 +70,7 @@ while True:
            
            escolha_menu == input ("\nSair:")
 
-    if escolha_menu == '3':
+    elif escolha_menu == '3':
            print("Refrigerantes")
            print("Cervejas")
            print("Sucos Naturais")
@@ -81,12 +83,9 @@ while True:
            print("Pão italiano")
            
            escolha_menu == input ("\nSair:")
-                
-       
- 
   
 
 else:
-        print("\nOpção inválida, tente novamente.\n")
+        print("\nOpção inválida, tente novamente.\n")  
 
 
