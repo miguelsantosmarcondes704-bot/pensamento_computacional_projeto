@@ -53,6 +53,10 @@ while True:
           print("Saindo até logo:3\n")
         
         break
+     
+
+        if escolha_menu == '0':
+          print("Saindo até logo:3\n")
 
         if escolha_menu == '1': 
         
